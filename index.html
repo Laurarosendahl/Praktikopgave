@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prakitkopgave</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    
+    <nav>
+        <a href="index.html"><img src="images/rooster-logo.png" alt="logo"></a>
+        <ul>
+            <li><a href="#"> Menupunkt #1</a></li>
+            <li><a href="#"> Menupunkt #2</a></li>
+            <li><a href="#"> Menupunkt #3</a></li>
+            <li><a href="#"> Menupunkt #4</a></li>
+            <li><a href="#"> Menupunkt #5</a></li>
+        </ul>
+        <button class="blackbutton ">Book et møde</button>
+    </nav>
+
+    <!--Burger-->
+<div class="mobile-container">
+
+    <div class="topnav">
+        <a href="index.html"><img src="images/rooster-logo.png" alt="logo"></a>
+      <div id="myLinks">
+        <a href="#">Menupunkt #1</a>
+        <a href="#">Menupunkt #2</a>
+        <a href="#">Menupunkt #3</a>
+        <a href="#">Menupunkt #4</a>
+        <a href="#">Menupunkt #5</a>
+
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>    
+</div>
+
+
+
+    <section class="landing">
+        <div class="landingtext">
+        <h1>Making it right entirely in Copenhagen since 1997</h1>
+        <p>
+            Every product embodies our spirit of family legacy, traditional craftmanship, and a genuine commitment to 
+            sustainability
+        </p>
+        <button class="landingbutton"><a href="#">Book et møde</a></button>
+    </div>
+    </section>
+
+    <section class="yellow">
+        <div class="pursuit">
+            <h2>Pursuit of exellence</h2>
+            <p>
+                The idea of “form follows function,” a principle associated with the modernist design movement, 
+                was the <br> starting place for our Voda collection. Its classic geometry and clean finishes unite into 
+                an industrial <br> modern style, crafted for Australian living.
+            </p>
+            <button class="blackbutton yellowbutton">Kontakt os</button>
+        </div>
+    </section>
+
+    <section class="modernrefinement">
+        <img src="images/splitsektion-1.jpg" alt="vand">
+        <div class="text">
+            <h2>Modern refinement</h2>
+            <p>
+                Sammen med vores kunder og den samlede viden fra vores 18.500 arkitekter, ingeniører og øvrige specialister 
+                skaber vi løsninger, der adresserer urbanisering, griber digitaliseringens muligheder og gør vores byer og 
+                samfund mere bæredygtige.
+
+            </p>
+            <br>
+            <p>
+                Transforming Society Together.
+            </p>
+            <br>
+            <button class="blackbutton modernrefinementbutton">Kontakt os</button>
+        </div>
+    </section>
+
+    <section class="imagesflex">
+            <div class="container">
+                <img src="images/ydelser.jpg" alt="vand">
+                <div class="containertext1">
+                    <h3 class="gallerytext">Ydelser</h3>
+                </div>
+            </div>
+            <div class="container">
+                <img src="images/service.jpg" alt="skov">
+                <div class="containertext2">
+                    <h3>Service</h3>
+                </div>
+            </div>
+            <div class="container">
+                <img src="images/kontaktos.jpg" alt="bjerge">
+                <div class="containertext3">
+                    <h3>Kontakt os</h3>
+                </div>
+            </div>
+    </section>
+
+    <section class="modernrefinement2">
+        <div class="text2">
+        <h2>Modern refinement</h2>
+        <p>
+            Sammen med vores kunder og den samlede viden fra vores 18.500 arkitekter, ingeniører og øvrige specialister 
+            skaber vi løsninger, der adresserer urbanisering, griber digitaliseringens muligheder og gør vores byer og 
+            samfund mere bæredygtige.
+        </p>
+        <br>
+        <p>Transforming Society Together.</p>
+        <br>
+        <button class="blackbutton">Kontakt os</button>
+        </div>
+        <img src="images/splitsektion-2.jpg" alt="fugl">
+    </section>
+
+
+    <section class="formsection">
+        <div class="getintouch">
+            <h2>Get in touch</h2>
+            <h3>We are awwwards and we are here to serve! <br> How can we help you?</h3>
+            <p>
+            If you have any questions, please contact us through <br> this form.
+            Please complete the following fields.
+            </p>
+        </div>
+
+        <form>
+            <input
+            id="name"
+            type="text"
+            name="name"
+            placeholder="Dit navn*"
+          />
+
+            <input
+            id="phonenumber"
+            type="number"
+            name="phonenumber"
+            placeholder="Telefonnummer"
+        />
+
+            <input
+            id="email"
+            type="text"
+            name="email"
+            placeholder="Din email*"
+        />
+
+            <textarea
+            id="besked"
+            type="text"
+            name="besked"
+            placeholder="Eventuel besked*"
+            ></textarea>
+            <button class="blackbutton formbutton"><a href="#">Kontakt os</a></button>
+        </form>
+    </section>
+
+    <footer>
+            <div class="findos">
+            <h3>Find os her</h3>
+            <p>
+            Rooster Fried Chicken <br>
+            Firmavej 109 <br>
+            2300 Firmaby
+            </p>
+            <br>
+            <p>
+            Tlf.: +45 12 34 56 78 <br>
+            Mail: info@roosterfried.dk
+            </p>
+            <br>
+            <p>
+            <b>Åbningstider</b>
+            </p>
+        
+            <p>
+            Mandag-Fredag: 10.00 - 17.30 <br>
+            Lørdag: 10.00 - 15.00 
+            </p>
+            <div class="some">
+                <img src="images/facebook-ikon-hvid.png" alt="facebook-ikon-hvid">
+                <img src="images/instagram-ikon-hvid.png" alt="instagram-ikon-hvid">
+                <img src="images/pinterest-ikon-hvid.png" alt="pinterest-ikon-hvid">
+                <img src="images/linkedin-ikon-hvid.png" alt="linkedin-ikon-hvid">
+            </div>
+        </div>
+
+        <div class="information">
+            <ul>
+                <h3>Information</h3>
+                <li><a href="#">Om Rooster</a></li>
+                <li><a href="#">Kataloger & Film</a></li>
+                <li><a href="#">Kundeguide</a></li>
+                <li><a href="#">Opskrifter</a></li>
+                <li><a href="#">Presse</a></li>
+                <li><a href="#">Karriere</a></li>
+            </ul>
+        </div>
+
+        <div class="about">
+            <ul>
+                <h3>About</h3>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Refund policy</a></li>
+                <li><a href="#">Help Center</a></li>
+            </ul>
+        </div>
+
+        <div class="shop">
+            <ul>
+                <h3>Shop</h3>
+                <li><a href="#">Juices</a></li>
+                <li><a href="#">Supplements</a></li>
+                <li><a href="#">Pantry</a></li>
+                <li><a href="#">Locations</a></li>
+                <li><a href="#">Order Ahead</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Refund policy</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
+</body>
+</html>

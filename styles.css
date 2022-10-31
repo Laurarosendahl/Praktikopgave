@@ -1,0 +1,983 @@
+* {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+button {
+    border: none;
+    cursor: pointer;        
+}
+
+button:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.blackbutton {
+    background-color: black;
+    color: #ffffff;
+    border-radius: 6.5px ;
+    padding: 10px 30px; 
+    text-transform: uppercase;
+}
+
+button a{
+    color:#ffffff;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 200;
+}
+
+.mobile-container {
+    display: none;
+}
+
+/*-----NAVBAR-----*/
+nav {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    background-color: #ffffff;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+nav a {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+nav a:hover {
+    opacity: 70%;
+    text-decoration: underline;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+/*-----Top-sektion-------*/
+
+.landing {
+    background-image: url(images/topbillede.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.landingtext {
+    margin-left: 10%;    
+    margin-right: 10%;
+
+}
+
+.landingbutton {
+    background-color:#ffffff;
+    color: black;
+    border-radius: 6.5px ;
+    padding: 10px 30px; 
+    margin-top: 2%;
+    text-transform: uppercase;
+}
+
+.landingbutton a {
+    color: black;
+}
+
+.landingbutton:hover {
+    opacity: 70%;
+}
+
+.landing h1 {
+    font-family: 'DM Serif Display', serif;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 300;
+    width: 50%;
+    padding-top: 20%;
+}
+
+.landing p {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+    width: 50%;
+}
+
+ 
+
+
+/*-----Sektion 2 - gul baggrund--------*/
+
+.yellow {
+    background-color: #f8dd9f;
+    height: 50vh;
+}
+
+.pursuit {
+    text-align: center;
+    padding-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.pursuit p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.yellowbutton {
+    margin-top: 2%;
+}
+
+/*------Sektion 3 - billede af vand------*/ 
+
+.modernrefinement {
+    display: flex;
+}
+
+.modernrefinement img {
+    margin: 10% 5% 10% 10%;
+    width: 100%;
+}
+
+.text {
+    display: block;
+    margin-top: 18%;
+    margin-right: 10%;
+}
+
+.text p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+.modernrefinementbutton {
+    margin-top: 2%;
+}
+
+
+/*---- Flex-billeder -----*/
+
+.imagesflex {
+    display: flex;
+    height: auto;
+}
+
+.container img{
+    width: 100%;
+    position:relative;
+    max-height: 100vh;
+    text-align: center;
+  }
+
+  .imagesflex h3 {
+    font-size: 50px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 200;
+    color: #ffffff;
+  }
+
+.containertext1 {
+    position: relative;
+    left: 33.333%;
+    top: -50%;
+}
+
+.containertext2 {
+    position: relative;
+    left: 33.3333%;
+    top: -50%;
+}
+
+.containertext3 {
+    position: relative;
+    left: 33.33333%;
+    top: -50%;
+    padding-right:0 ;
+}
+
+/*----- splitsektion2------*/
+
+.modernrefinement2 {
+    display: flex;
+}
+.text2 {
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.text2 p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.modernrefinement2 img {
+    width: 100%;
+    margin: 5% 10% 10% 10%;
+}
+
+
+
+/*---- Formsection ----*/
+
+.formsection {
+    background-color: #f8dd9f;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formsection h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.formsection p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 2.2;
+    padding-top: 5%;
+}
+
+.getintouch {
+    display: block;
+    margin: 10%;
+}
+
+form {
+    margin-top: 10%;
+    margin-right: 10%;
+}
+
+.formsection input, textarea {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    width: 470px;
+    padding: 8px 5px 8px 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.formbutton {
+    float: right;
+    margin-top: 10px;
+}
+
+
+/*-----Footer----*/
+
+footer {
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    padding: 5% 10% 5% 10%;
+    justify-content: space-between;
+}
+
+
+footer h3 {
+    font-size: 25px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 200;
+}
+
+footer p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+footer a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    line-height: 1.5;
+}
+
+.some img {
+    width: 10%;
+    padding: 10% 5% 5% 0 ;
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1030px) {
+
+    /*----TOPSECTION---*/
+    .landing h1 {
+        width: 100%;
+        font-size: 60px;
+    }
+    
+    .landing p {
+        font-size: 20px;
+        width: 100%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    /*-----Gul section-----*/
+
+    .yellow {
+        height: 45vh;
+    }
+
+    .pursuit h2 {
+        padding-bottom: 5%;
+    }
+
+    /*-----Modern refinement - section-----*/
+    .text {
+        margin-top: 10%;
+    }
+
+    /*-----flex-section-----*/
+
+    .imagesflex h3 {
+        font-size: 30px;
+    }
+
+    /*-----Modern refinement - section-----*/
+
+    .text2  {
+        margin-top: 3%;
+    }
+    /*-----Get in touch - section-----*/
+
+    .getintouch {
+        margin-left:10% ;
+        margin-right: 2%;
+        max-width: 50%;
+    }
+
+
+    .formsection input, textarea {
+        width: 350px;
+    }
+}
+
+
+@media only screen and (min-width: 750px) and (max-width: 900px) {
+
+    .landing {
+        height: 90vh;
+    }
+    .landing h1 {
+        width: 100%;
+        font-size: 60px;
+        padding-top: 30%;
+    }
+    
+    .landing p {
+        font-size: 25px;
+        width: 100%;
+        padding-top: 5%;
+        padding-bottom: 15%;
+    }
+
+/*-----Sektion 2 - gul baggrund--------*/
+
+    .yellow {
+        height: 35vh;
+    }
+
+    .pursuit {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .pursuit h2 {
+        font-size: 35px;
+        padding-bottom: 5%;
+    }
+
+    .yellowbutton {
+        margin-top: 5%;
+    }
+
+/*------Sektion 3 - billede af vand------*/ 
+
+    .modernrefinement {
+        display: block;
+    }
+
+    .modernrefinement img {
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        margin-bottom: 5%;
+    }
+
+    .text {
+        margin-top: 0;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .modernrefinementbutton {
+        margin-bottom: 15%;
+    }
+
+    /*---- Flex-billeder -----*/
+
+    .imagesflex {
+        display: block;
+        text-align: center;
+    }
+    
+    .container {
+        height: 80vh;
+        overflow-y: hidden;
+    }
+    .containertext1 {
+        position: relative;    
+        top: 10%;
+        left: 10%;
+        transform: translate(-10%, -1020%);
+    }
+
+    .containertext2 {
+        position: relative;    
+        top: 10%;
+        left: 10%;
+        transform: translate(-10%, -1020%);
+    }
+
+    .containertext3 {
+        position: relative;    
+        top: 10%;
+        left: 10%;
+        transform: translate(-10%, -1020%);
+    }
+
+    /*----- splitsektion2------*/
+
+    .modernrefinement2 {
+        display: block;
+    }
+    .text2 {
+        margin-right: 10%;
+    }
+
+    .text2 h2 {
+        font-size: 35px;
+        padding-bottom: 5%;
+    }
+
+    .modernrefinement2 img {
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+    }
+
+    .modernrefinement2 button {
+        margin-top: 2%;
+        margin-bottom: 5%;
+    }
+
+/*---- Formsection ----*/
+
+    .formsection {
+        display: block;
+        height: 60vh;
+    }
+
+    .getintouch {
+        margin-top: 5%;
+    }
+
+    .formsection p {
+        padding-top: 2%;
+    }
+    form {
+        margin: 0 10% 5% 10%;
+    }
+
+    .formsection input, textarea {
+        width: 635px;
+    }
+
+    .formbutton {
+        justify-items: center;
+        float: left;
+    }
+
+/*-----Footer-------*/
+
+    footer {
+        display: block;
+        text-align: center;
+    }
+
+    footer h3 {
+        font-size: 20px;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+
+    footer ul {
+        padding-inline-start: 0px;
+    }
+
+    .information {
+        padding-top: 5%;
+    }
+
+    .about {
+        padding-top: 10%;
+    }
+
+    .shop {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .some img {
+        width: 30px;
+        padding: 5% 5% 5% 5% ;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+/*-----Top-sektion-------*/
+
+.landing {
+    height: 91vh;
+}
+.landing h1 {
+    width: 100%;
+    font-size: 40px;
+    padding-top: 30%;
+}
+
+.landing p {
+    font-size: 15px;
+    width: 100%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+/*-----Sektion 2 - gul baggrund--------*/
+.yellow {
+    height:45vh;
+}
+.pursuit h2 {
+    font-size: 35px;
+    padding-bottom: 10%;
+}
+
+.yellowbutton {
+    margin-top: 10%;
+}
+
+/*------Sektion 3 - billede af vand------*/ 
+
+.modernrefinement {
+    display: block;
+}
+
+.modernrefinement img {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+.modernrefinement h2 {
+    font-size: 35px;
+    padding-bottom: 5%;
+}
+
+.text {
+    margin-top: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.modernrefinementbutton {
+    margin-top: 2%;
+    margin-bottom: 15%;
+}
+
+/*---- Flex-billeder -----*/
+
+.imagesflex {
+    display: block;
+    text-align: center;
+}
+.container {
+    height: 60vh;
+    overflow-y: hidden;
+}
+.containertext1 {
+    position: relative;    
+    top: 10%;
+    left: 10%;
+    transform: translate(-10%, -700%);
+}
+
+.containertext2 {
+    position: relative;    
+    top: 10%;
+    left: 10%;
+    transform: translate(-10%, -650%);
+}
+
+.containertext3 {
+    position: relative;    
+    top: 10%;
+    left: 10%;
+    transform: translate(-10%, -700%);
+}
+
+/*----- splitsektion2------*/
+
+.modernrefinement2 {
+    display: block;
+}
+.text2 {
+    margin-right: 10%;
+}
+
+.text2 h2 {
+    font-size: 35px;
+    padding-bottom: 5%;
+}
+
+.modernrefinement2 img {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+.modernrefinement2 button {
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+
+
+/*---- Formsection ----*/
+
+.formsection {
+    height: 80vh;
+    display: block;
+}
+
+
+form {
+    margin:10%;
+}
+
+.formsection input, textarea {
+    width: 270px;
+}
+
+.formbutton {
+    justify-items: center;
+    margin-top: 10%;
+    float: left;
+}
+
+/*-----Footer-------*/
+
+footer {
+    display: block;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 20px;
+}
+
+footer p {
+    font-size: 10px;
+}
+
+footer ul {
+    padding-inline-start: 0px;
+}
+
+.information {
+    padding-top: 5%;
+}
+
+.about {
+    padding-top: 15%;
+}
+
+.shop {
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+.some img {
+    width: 10%;
+    padding: 5% 5% 15% 5% ;
+}
+
+}
+@media only screen and (min-width: 370px) and (max-width: 400px) {
+/*-----Top-sektion-------*/
+
+.landing {
+    height: 91vh;
+}
+
+.landing h1 {
+    width: 100%;
+    font-size: 40px;
+    padding-top: 40%;
+}
+
+.landing p {
+    font-size: 15px;
+    width: 100%;
+    padding-top: 20%;
+    padding-bottom: 30%;
+}
+
+/*-----Sektion 2 - gul baggrund--------*/
+
+.pursuit h2 {
+    font-size: 35px;
+    padding-bottom: 10%;
+}
+
+
+.yellowbutton {
+    margin-top: 10%;
+}
+
+/*------Sektion 3 - billede af vand------*/ 
+
+.modernrefinement {
+    display: block;
+}
+
+.modernrefinement img {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+.modernrefinement h2 {
+    font-size: 35px;
+    padding-bottom: 5%;
+}
+
+.text {
+    margin-top: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.modernrefinementbutton {
+    margin-top: 2%;
+    margin-bottom: 15%;
+}
+
+/*---- Flex-billeder -----*/
+
+.imagesflex {
+    display: block;
+    text-align: center;
+}
+.container {
+    height: 60vh;
+    overflow-y: hidden;
+}
+.containertext1 {
+    position: relative;    
+    top: 10%;
+    left: 10%;
+    transform: translate(-10%, -550%);
+}
+
+.containertext2 {
+    position: relative;    
+    top: 10%;
+    left: 10%;
+    transform: translate(-10%, -550%);
+}
+
+.containertext3 {
+    position: relative;    
+    top: 10%;
+    left: 10%;
+    transform: translate(-10%, -550%);
+}
+
+/*----- splitsektion2------*/
+
+.modernrefinement2 {
+    display: block;
+}
+.text2 {
+    margin-right: 10%;
+}
+
+.text2 h2 {
+    font-size: 35px;
+    padding-bottom: 5%;
+}
+
+.modernrefinement2 img {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+.modernrefinement2 button {
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+
+
+/*---- Formsection ----*/
+
+.formsection {
+    height: 80vh;
+    display: block;
+}
+
+
+form {
+    margin:10%;
+}
+
+.formsection input, textarea {
+    width: 270px;
+}
+
+.formbutton {
+    justify-items: center;
+    margin-top: 10%;
+    float: left;
+}
+
+/*-----Footer-------*/
+
+footer {
+    display: block;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 20px;
+}
+
+footer p {
+    font-size: 10px;
+}
+
+footer ul {
+    padding-inline-start: 0px;
+}
+
+.information {
+    padding-top: 5%;
+}
+
+.about {
+    padding-top: 15%;
+}
+
+.shop {
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+.some img {
+    width: 10%;
+    padding: 5% 5% 15% 5% ;
+}
+
+}
+
+/*----Burger------*/
+@media only screen and (min-width: 200px) and (max-width: 1100px) {
+    nav {
+        display: none;
+    }
+
+    /*burger*/
+    .mobile-container {
+        margin: auto;
+        color: white;
+        display: block;
+    }
+      
+    .topnav {
+        width: 100%;
+    }
+
+    .topnav img {
+        width: 60px;
+    }
+      
+    .topnav #myLinks {
+        display: none;
+    }
+      
+    .topnav a {
+        color: black;
+        padding: 15px 15px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    .icon i{
+        font-size: 27px;
+        padding-top: 10px;
+    }
+      
+    .topnav a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+}
